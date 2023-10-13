@@ -1,0 +1,115 @@
+html {
+    width: 800px;
+    height: 800px;
+}
+
+#image-main {
+    width: 1100px;
+    height: 1000px;
+    z-index: -1;
+    position: relative;
+    top: -200px;
+    left: -10px;
+
+}
+
+body {
+    height: 1000px;
+}
+
+#box {
+position: absolute;
+width: 800px;
+height: 1000px;
+top: 0px;
+left: 1050px;
+justify-content: center;
+align-items: center;
+}
+
+#apple-icon {
+    width: 200px;
+    height: 176px;
+    position: relative;
+    top: 810px;
+
+}
+
+#inter-icon {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 328px;
+
+}
+
+#pf-mei {
+    position: absolute;
+    top: 240px;
+    left: 1200px;
+    opacity: 0.9;
+    font-size: 22px;
+    color: rgb(138, 138, 138);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#pj {
+    position: absolute;
+    top: 240px;
+    left: 1600px;
+    opacity: 0.9;
+    font-size: 22px;
+    color: rgb(138, 138, 138);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#flex-bar {
+    width: 580px;
+    height: 1.2px;
+    background-color: gray;
+    opacity: 0.3;
+    position: absolute;
+    left: 1200px;
+    top: 310px;
+}
+
+#txt {
+    width: 480px;
+    height: 1.2px;
+    position: absolute;
+    left: 1200px;
+    top: 310px;
+    font-family: sans-serif;
+    color: rgb(85, 85, 85);
+    flex: auto;
+    font-size: 25px;
+    text-align: center;
+    left: 1240px;
+}
+
+#icon1 {
+    justify-content: inherit;
+    align-items: inherit;
+    position: relative;
+    margin: 0px;
+    top: -860px;
+    flex: content;
+    left: 1150px;
+}
+#icon2 {
+    justify-content: inherit;
+    align-items: inherit;
+    position: relative;
+    margin: 0px;
+    top: -1000px;
+    flex: content;
+}
+#icon3 {
+    justify-content: inherit;
+    align-items: inherit;
+    position: relative;
+    margin: 0px;
+    top: -1000px;
+    flex: content;
+}
